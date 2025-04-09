@@ -1,0 +1,32 @@
+/*---------------------------------------------*\
+  #font-face 
+\*---------------------------------------------*/
+@font-face {
+  font-family: "SuraSans";
+  src: url("/documents/d/global/surasans-regular");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "SuraSans";
+  src: url("/documents/d/global/surasans-seminegrita");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "SuraSans";
+  src: url("/documents/d/global/surasans-negrita");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "ico-sura";
+  src: url("/documents/d/global/ico-sura-eot?qg67ti");
+  src: url("/documents/d/global/ico-sura-eot?qg67ti#iefix") format("embedded-opentype"), url("/documents/d/global/ico-sura-ttf?qg67ti") format("truetype"), url("/documents/d/global/ico-sura-woff?qg67ti") format("woff"), url("/documents/d/global/ico-sura-svg?qg67ti#iico-sura") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+@font-face {
+  font-family: "forma-sura";
+  src: url("/documents/d/global/forma-sura-eot?qg68ti");
+  src: url("/documents/d/global/forma-sura-eot?qg68ti#iefix") format("embedded-opentype"), url("/documents/d/global/forma-sura-ttf?qg68ti") format("truetype"), url("/documents/d/global/forma-sura-woff?qg68ti") format("woff"), url("/documents/d/global/forma-sura-svg?qg68ti#iforma-sura") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }

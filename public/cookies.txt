@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.sura.co	TRUE	/	FALSE	1999999999	JSESSIONID	3335B00D95D19630BC499BD2EF8EEB58
+www.sura.co	TRUE	/	FALSE	1999999999	COOKIE_SUPPORT	true
+www.sura.co	TRUE	/	FALSE	1999999999	GUEST_LANGUAGE_ID	en_US
+www.sura.co	TRUE	/	FALSE	1999999999	SERVER_ID	94664c04da1af0a1
+asistenciawebv2.grupokonecta.co:8443	TRUE	/	FALSE	1999999999	BIGipServerpool_genesys_eservices_grupokonecta_443	2432767916.64288.0000
+

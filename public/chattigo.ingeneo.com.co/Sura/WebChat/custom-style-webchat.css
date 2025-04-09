@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'sura-sans-vf';
+    src: url('fonts/Sura_Sans_Ttf/SuraSansVF.ttf') format('truetype');
+}
+
+.chattigo-widget {
+    font-family: 'sura-sans-vf' !important;
+}
+
+.chattigo-widget-header.custom-icon {
+    height: 60px !important;
+    padding: 10px 10px 0 !important;
+}
+
+.chattigo-widget--welcome .chattigo-widget-header__background,
+.chattigo-widget-header__background,
+.chattigo-widget-header--fixed {
+    background-color: #2D6DF6 !important;
+    background-image: none !important;
+}
+
+.chattigo-widget-header__h3,
+.chattigo-widget-header__subheading {
+    display: none !important;
+}
+
+.chattigo-widget-header--fixed {
+    justify-content: flex-start !important;
+}
+
+.chattigo-widget-header__h3.custom {
+    color: rgb(255, 255, 255) !important;
+    margin: 8px !important;
+    display: block !important;
+}
+
+.chattigo-widget-header__image.custom-img {
+    height: 60px !important;
+    width: 60px !important;
+    margin-right: 0px !important;
+}
+
+.chattigo-widget-header__agent-info {
+    justify-content: center !important;
+}
+
+.chattigo-widget .c-button--secondary {
+    border: none !important;
+    color: #F8F8F8 !important;
+}
+
+.chattigo-widget .c-button {
+    background-color: #2D6DF6 !important;
+    border-radius: 15px !important;
+}
+
+.chattigo-widget .c-message-buttons__button {
+    background-color: #2D6DF6 !important;
+    border: 1px solid #F8F8F8 !important;
+    color: #F8F8F8 !important;
+    border-radius: 15px !important;
+}
+
+.chattigo-widget .c-message-box__message {
+    background-color: #F8F8F8 !important;
+    border-radius: 10px !important;
+}
+
+.chattigo-widget .c-message-box__message-intervention,
+.chattigo-widget .c-message-box__message-sended {
+    background-color: #DFEAFF !important;
+    background-image: linear-gradient(180deg, #DFEAFF, #DFEAFF) !important;
+    border-radius: 10px !important;
+}
+
+.chattigo-widget .c-switch:checked+label {
+    background: #2D6DF6 !important;
+}
+
+.chattigo-widget-logout {
+    color: #2D6DF6;
+}
+
+.ch-ui-modal__modal--center h1 {
+    font-family: 'sura-sans-vf' !important;
+}
+
+.ch-ui-modal__modal--center p {
+    font-family: 'sura-sans-vf' !important;
+    padding: 5px !important;
+}
+
+.ch-ui-modal__modal--buttons--refresh {
+    background: #2D6DF6 !important;
+    border-radius: 15px !important;
+}
+
+.ch-ui-modal__modal--buttons--go-back {
+    color: #2D6DF6 !important;
+    border: 1px solid #2D6DF6 !important;
+    border-radius: 15px !important;
+}
+
+.chattigo-widget .c-message-buttons__wrapper {
+    margin-left: 65px !important;
+}
+
+.chattigo-btn-primary {
+    text-decoration: none !important;
+    border-radius: 15px;
+    padding: 10px 7px;
+    color: #fff !important;
+    background-color: #2D6DF6 !important;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.chattigo-btn-primary:hover {
+    color: #fff !important;
+}
+
+.chattigo-icon-agent {
+    color: rgb(255, 255, 255);
+}
+
+.chattigo-widget .c-send-button--ready {
+    background-color: #2D6DF6 !important;
+}
+
+.chattigo-widget .c-send-button--ready span {
+    color: #ffff !important;
+}
+
+.chattigo-widget .c-input.hide-text {
+    color: #ffff !important;
+}
+
+/* #messageBody,
+.chattigo-widget__footer {
+    display: none;
+} */
+
+.c-message-box-loading {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-message-box-loading__img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.chattigo-widget img {
+    border-style: none;
+}
+
+.c-message-box-loading__text {
+    margin-right: 18px;
+}
+
+.load-container {
+    position: relative;
+}
+
+.chattigo-widget-header--fixed {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.chattigo-widget,
+.chattigo-widget.chattigo-widget--welcome,
+.chattigo-widget.chattigo-widget--ending {
+    border-radius: 15px !important;
+}
+
+a:has(> .chattigo-icon-attachment) {
+    display: none;
+}
+
+a:has(> .chattigo-icon-emoji) {
+    display: none;
+}
+
+.ch-ui-modal {
+    display: none !important;
+}
+
+.chattigo-widget-header__actions {
+    align-items: center !important;
+    margin-top: 0 !important
+}
+
+.toggle--active {
+    background-color: #2D6DF6 !important;
+}
+
+.c-evaluation {
+    display: none !important;
+}
+
+.chattigo-widget-form .c-button.c-button--secondary {
+    margin-top: 24px !important;
+}
