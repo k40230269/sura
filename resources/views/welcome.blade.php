@@ -1695,8 +1695,7 @@
                                                                                                         class="s-o-dropdown__toggle__right d-flex">
                                                                                                         <span
                                                                                                             class="s-o-icon txt-color-primary-color-1 header-gtm">
-                                                                                                            <i class="s-iconDirectionDown1"
-                                                                                                                aria-hidden="true"></i>
+                                                                                                            <img src="{{ asset('flecha_abajo_azul.PNG') }}" alt="">
                                                                                                         </span> </span>
                                                                                                 </a>
                                                                                                 <div class="s-o-dropdown__content s-js-hidden"
@@ -2651,8 +2650,7 @@
                                                                                                         class="s-o-dropdown__toggle__right d-flex">
                                                                                                         <span
                                                                                                             class="s-o-icon txt-color-primary-color-1 header-gtm">
-                                                                                                            <i class="s-iconDirectionDown1"
-                                                                                                                aria-hidden="true"></i>
+                                                                                                            <img src="{{ asset('flecha_abajo_azul.PNG') }}" alt="">
                                                                                                         </span> </span>
                                                                                                 </a>
                                                                                                 <div class="s-o-dropdown__content s-js-hidden"
@@ -4465,8 +4463,7 @@
                                                                                                         class="s-o-dropdown__toggle__right d-flex">
                                                                                                         <span
                                                                                                             class="s-o-icon txt-color-primary-color-1 header-gtm">
-                                                                                                            <i class="s-iconDirectionDown1"
-                                                                                                                aria-hidden="true"></i>
+                                                                                                            <img src="{{ asset('flecha_abajo_azul.PNG') }}" alt="">
                                                                                                         </span> </span>
                                                                                                 </a>
                                                                                                 <div class="s-o-dropdown__content s-js-hidden"
@@ -4887,9 +4884,8 @@
                                                             id=""
                                                             class="banner-m-interna-boton-imagen-derecha-gtm-odjo">Comprar
                                                             SOAT</span>
-                                                        <div class="s-o-icon s-t-icon--right m-l-16"> <i
-                                                                class="s-iconFiguraFlecha-derecha"
-                                                                aria-hidden="true"></i> </div>
+                                                        <div class="s-o-icon s-t-icon--right m-l-16">
+                                                            <img src="{{ asset('flecha_derecha_amarilla.PNG') }}" alt="">  </div>
                                                     </a>
                                                 </div>
                                             </div>
@@ -5300,8 +5296,7 @@
                                                                                             class="d-flex tira-carrusel-accesos-f-gtm-2664891 centrando">
                                                                                             <div
                                                                                                 class="s-c-carouselStrip__picture tira-carrusel-accesos-f-gtm-2664891">
-                                                                                                <i class="s-iconMoto"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('moto.PNG') }}" alt="">
                                                                                             </div>
                                                                                             <p
                                                                                                 class="s-c-carouselStrip__text tira-carrusel-accesos-f-gtm-2664891">
@@ -5354,8 +5349,7 @@
                                                                                             class="d-flex tira-carrusel-accesos-f-gtm-2664891 centrando">
                                                                                             <div
                                                                                                 class="s-c-carouselStrip__picture tira-carrusel-accesos-f-gtm-2664891">
-                                                                                                <i class="s-iconCarro"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('carro.PNG') }}" alt="">
                                                                                             </div>
                                                                                             <p
                                                                                                 class="s-c-carouselStrip__text tira-carrusel-accesos-f-gtm-2664891">
@@ -5408,8 +5402,7 @@
                                                                                             class="d-flex tira-carrusel-accesos-f-gtm-2664891 centrando">
                                                                                             <div
                                                                                                 class="s-c-carouselStrip__picture tira-carrusel-accesos-f-gtm-2664891">
-                                                                                                <i class="s-iconCasa"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('arriendo.PNG') }}" alt="">
                                                                                             </div>
                                                                                             <p
                                                                                                 class="s-c-carouselStrip__text tira-carrusel-accesos-f-gtm-2664891">
@@ -5462,8 +5455,7 @@
                                                                                             class="d-flex tira-carrusel-accesos-f-gtm-2664891 centrando">
                                                                                             <div
                                                                                                 class="s-c-carouselStrip__picture tira-carrusel-accesos-f-gtm-2664891">
-                                                                                                <i class="s-iconAvion"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('viaje.PNG') }}" alt="">
                                                                                             </div>
                                                                                             <p
                                                                                                 class="s-c-carouselStrip__text tira-carrusel-accesos-f-gtm-2664891">
@@ -5671,8 +5663,7 @@
                                                                                                 class="card-evento-boton-2665566">Ver
                                                                                                 tarifas</span> <span
                                                                                                 class="s-o-icon s-t-icon--right m-l-16">
-                                                                                                <i class="s-iconFiguraFlecha-derecha"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('flecha_derecha_azul.PNG') }}" alt="">
                                                                                             </span> </a>
                                                                                     </div>
                                                                                 </div>
@@ -5741,8 +5732,7 @@
                                                                                                 class="card-evento-boton-2665698">Consultar</span>
                                                                                             <span
                                                                                                 class="s-o-icon s-t-icon--right m-l-16">
-                                                                                                <i class="s-iconFiguraFlecha-derecha"
-                                                                                                    aria-hidden="true"></i>
+                                                                                                <img src="{{ asset('flecha_derecha_azul.PNG') }}" alt="">
                                                                                             </span> </a>
                                                                                     </div>
                                                                                 </div>
@@ -6139,8 +6129,7 @@
                                                  componente-Boton-gtm-ypoe"
                                                 href="https://www.runt.gov.co/" target="_blank"> <span
                                                     class="componente-Boton-gtm-ypoe">Consulta en el RUNT</span>
-                                                <div class="s-o-icon s-t-icon--right m-l-16"> <i
-                                                        class="s-iconFiguraFlecha-derecha" aria-hidden="true"></i>
+                                                <div class="s-o-icon s-t-icon--right m-l-16">  <img src="{{ asset('runt.PNG') }}" alt="">
                                                 </div>
                                             </a>
                                         </div>
@@ -6178,9 +6167,7 @@
                                                     href="https://seguros.comunicaciones.sura.com/puntos-fisicos-compra-soat"
                                                     target="_blank"> <span class="componente-Boton-gtm-ljdb">Ver
                                                         más</span>
-                                                    <div class="s-o-icon s-t-icon--right m-l-16"> <i
-                                                            class="s-iconFiguraFlecha-derecha"
-                                                            aria-hidden="true"></i> </div>
+                                                    <div class="s-o-icon s-t-icon--right m-l-16">  <img src="{{ asset('flecha_derecha_azul.PNG') }}" alt=""></div>
                                                 </a>
                                             </div>
                                         </div>
@@ -7390,8 +7377,7 @@
                                                                                     class="dropdown_btn tabs-acordeon-gtm-26918370"
                                                                                     style="color:#2d6df6;">Renueva tu
                                                                                     SOAT</span>
-                                                                                <i class="s-iconWeightLight"
-                                                                                    aria-hidden="true"></i>
+                                                                                    <img src="{{ asset('izquierda_azul.PNG') }}" alt="">
                                                                             </div>
                                                                         </button>
                                                                         <div class="s-o-dropdown__content s-js-hidden"
@@ -7442,8 +7428,7 @@
                                                                                                         class="banner-txt-right-gtm-2689244">Cotizar</span>
                                                                                                     <span
                                                                                                         class="s-o-icon s-t-icon--right m-l-16">
-                                                                                                        <i class="s-iconFiguraFlecha-derecha"
-                                                                                                            aria-hidden="true"></i>
+                                                                                                        <img src="{{ asset('flecha_derecha_azul.PNG') }}" alt="">
                                                                                                     </span> </a>
                                                                                             </div>
                                                                                         </div>
@@ -7466,8 +7451,7 @@
                                                                                     class="dropdown_btn tabs-acordeon-gtm-26918371"
                                                                                     style="color:#2d6df6;">Descarga tu
                                                                                     SOAT</span>
-                                                                                <i class="s-iconWeightLight"
-                                                                                    aria-hidden="true"></i>
+                                                                                    <img src="{{ asset('flecha_abajo_blanco.PNG') }}" alt="">
                                                                             </div>
                                                                         </button>
                                                                         <div class="s-o-dropdown__content s-js-hidden"
@@ -7542,8 +7526,7 @@
                                                                                     class="dropdown_btn tabs-acordeon-gtm-26918372"
                                                                                     style="color:#2d6df6;">Puntos de
                                                                                     venta</span>
-                                                                                <i class="s-iconWeightLight"
-                                                                                    aria-hidden="true"></i>
+                                                                                    <img src="{{ asset('flecha_abajo_blanco.PNG') }}" alt="">
                                                                             </div>
                                                                         </button>
                                                                         <div class="s-o-dropdown__content s-js-hidden"
@@ -7683,8 +7666,7 @@
                                                                                             class="banner-txt-left-gtm-2697552">Descargar</span>
                                                                                         <span
                                                                                             class="s-o-icon s-t-icon--right m-l-16">
-                                                                                            <i class="s-iconFiguraFlecha-derecha"
-                                                                                                aria-hidden="true"></i>
+                                                                                            <img src="{{ asset('derecha_blanca.PNG') }}" alt="">
                                                                                         </span> </a>
                                                                                 </div>
                                                                             </div>
@@ -7865,8 +7847,7 @@
                                                                                 </div>
                                                                                 <div
                                                                                     class="s-o-dropdown__toggle__right d-flex">
-                                                                                    <div class="s-o-icon"> <i
-                                                                                            class="s-iconDirectionDown1 acordeon-sencillo-gtm-26935400"></i>
+                                                                                    <div class="s-o-icon"> <img src="{{ asset('arriba_pequeñito.PNG') }}" alt="">
                                                                                     </div>
                                                                                 </div>
                                                                             </a>
@@ -7926,8 +7907,7 @@
                                                                                 </div>
                                                                                 <div
                                                                                     class="s-o-dropdown__toggle__right d-flex">
-                                                                                    <div class="s-o-icon"> <i
-                                                                                            class="s-iconDirectionDown1 acordeon-sencillo-gtm-26935401"></i>
+                                                                                    <div class="s-o-icon"> <img src="{{ asset('abajo_pequeñito.PNG') }}" alt="">
                                                                                     </div>
                                                                                 </div>
                                                                             </a>
@@ -7973,8 +7953,7 @@
                                                                                 </div>
                                                                                 <div
                                                                                     class="s-o-dropdown__toggle__right d-flex">
-                                                                                    <div class="s-o-icon"> <i
-                                                                                            class="s-iconDirectionDown1 acordeon-sencillo-gtm-26935402"></i>
+                                                                                    <div class="s-o-icon"> <img src="{{ asset('abajo_pequeñito.PNG') }}" alt="">
                                                                                     </div>
                                                                                 </div>
                                                                             </a>
@@ -8023,8 +8002,7 @@
                                                                                 </div>
                                                                                 <div
                                                                                     class="s-o-dropdown__toggle__right d-flex">
-                                                                                    <div class="s-o-icon"> <i
-                                                                                            class="s-iconDirectionDown1 acordeon-sencillo-gtm-26935403"></i>
+                                                                                    <div class="s-o-icon"> <img src="{{ asset('abajo_pequeñito.PNG') }}" alt="">
                                                                                     </div>
                                                                                 </div>
                                                                             </a>
@@ -9181,24 +9159,7 @@
                     </div>
                     <div class="lfr-layout-structure-item-basic-component-html lfr-layout-structure-item-2af330a2-8615-0c65-fc7d-ef807754d783 "
                         style="">
-                        <div id="fragment-8cd094c7-c453-1bd7-8841-19e465c5a6c0">
-                            <div class="component-html" data-lfr-editable-id="element-html"
-                                data-lfr-editable-type="html">
-                                <hr />
-                                <script src="../../../../cdn-widgets.chattigo.com/webchat-widget-new.js"></script>
-                                <script>
-                                    var e = document.createElement("div");
-                                    for (e.innerHTML =
-                                        "\x3capp-widget-root did\x3d'ventassoat543-10229-webchat@wc' remote\x3d'true'\x3e\x3c/app-widget-root\x3e"; e
-                                        .firstChild;) document.body.appendChild(e.firstChild);
-                                    widget = document.querySelector("app-widget-root");
-                                    widget.init();
-                                </script>
-                                <link href="../../../../chattigo.ingeneo.com.co/Sura/WebChat/custom-style-webchat.css"
-                                    rel="stylesheet" />
-                                <script type="" src="../../../../chattigo.ingeneo.com.co/Sura/WebChat/custom-functions-webchat.js"></script>
-                            </div>
-                        </div>
+                     
                     </div>
                     <div class="lfr-layout-structure-item-basic-component-html lfr-layout-structure-item-ff51ce16-33cc-2468-2a6c-f45fa540ae05 "
                         style="">
@@ -9880,41 +9841,7 @@
                                                                                             data-analytics-web-content-resource-pk="493099">
                                                                                             <ul
                                                                                                 class="s-c-footer__media__list">
-                                                                                                <li> <a id="3925060"
-                                                                                                        href="https://www.facebook.com/SegurosSURAColombia"
-                                                                                                        target="_blank"
-                                                                                                        title="ir a Facebook"><i
-                                                                                                            class="s-o-icon s-iconFacebook footer-gtm-3925060"
-                                                                                                            style="color:var(--primary-color-1)"></i></a>
-                                                                                                </li>
-                                                                                                <li> <a id="3925061"
-                                                                                                        href="https://www.tiktok.com/@segurossuracol?lang=es"
-                                                                                                        target="_blank"
-                                                                                                        title="ir a Tiktok"><i
-                                                                                                            class="s-o-icon s-iconTik_tok_simplificado footer-gtm-3925061"
-                                                                                                            style="color:var(--primary-color-1)"></i></a>
-                                                                                                </li>
-                                                                                                <li> <a id="3925062"
-                                                                                                        href="https://www.instagram.com/segurossura/?hl=es-la"
-                                                                                                        target="_blank"
-                                                                                                        title="ir a Instagram"><i
-                                                                                                            class="s-o-icon s-iconInstagram footer-gtm-3925062"
-                                                                                                            style="color:var(--primary-color-1)"></i></a>
-                                                                                                </li>
-                                                                                                <li> <a id="3925063"
-                                                                                                        href="https://www.youtube.com/@segurosura"
-                                                                                                        target="_blank"
-                                                                                                        title="ir a Youtube"><i
-                                                                                                            class="s-o-icon s-iconYoutube footer-gtm-3925063"
-                                                                                                            style="color:var(--primary-color-1)"></i></a>
-                                                                                                </li>
-                                                                                                <li> <a id="3925064"
-                                                                                                        href="https://twitter.com/SegurosSURAcol"
-                                                                                                        target="_blank"
-                                                                                                        title="ir a X"><i
-                                                                                                            class="s-o-icon s-iconX footer-gtm-3925064"
-                                                                                                            style="color:var(--primary-color-1)"></i></a>
-                                                                                                </li>
+                                                                                                <img src="{{ asset('redes.PNG') }}" alt="">
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -10888,6 +10815,9 @@
     <script></script>
     <a id="acces" href="#" target="_blank">
         <img src="https://cdn.userway.org/widgetapp/images/body_wh.svg" style="width:44px; height:44px;"">
+    </a>
+       <a id="whatsapp" href="https://api.whatsapp.com/send?phone=573044306860" target="_blank">
+        <img src="https://chattigo.ingeneo.com.co/Sura/WebChat/imgpsh_fullsize_anim.png">
     </a>
 
     <script type="module">

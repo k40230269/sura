@@ -15,6 +15,13 @@
         .async-hide {
             opacity: 0 !important;
         }
+        #whatsapp {
+            z-index: 9999;
+            position: fixed;
+            bottom: 15px;
+            right: 22px;
+            padding-bottom: 20px;
+        }
     </style>
     <style>
         body {
@@ -27668,17 +27675,7 @@
                 <!---->
             </recaptcha-challenge>
         </main>
-        <!---->
-        <lib-chatbot-tibot _ngcontent-serverapp-c66="" _nghost-serverapp-c54="">
-            <a _ngcontent-serverapp-c54="" id="chatIcon" href="javascript:" class="tibot-chat"
-                style="visibility: visible;"><img _ngcontent-serverapp-c54="" alt="Logo Tibot" class="openchat"
-                    src="https://parly-webchat-suraco-mastertibot.1jp7r741wpkb.us-east.codeengine.appdomain.cloud/arl/images/logo.png">
-                <div _ngcontent-serverapp-c54="" class="tibot-chat__text openchat">Chatea con <strong
-                        _ngcontent-serverapp-c54="">TiBot</strong></div>
-                <div _ngcontent-serverapp-c54="" id="notification" class="chatbot-pratech-floating-badge"><label
-                        _ngcontent-serverapp-c54="" id="countNotification"></label></div>
-            </a>
-        </lib-chatbot-tibot>
+
     </app-root>
     <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -27755,6 +27752,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <iframe style="display: none;"></iframe>
     </div>
     <div id="automa-palette"></div>
+    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=573044306860" target="_blank">
+        <img src="https://chattigo.ingeneo.com.co/Sura/WebChat/imgpsh_fullsize_anim.png">
 </body>
 
 </html>
