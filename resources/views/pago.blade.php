@@ -29212,7 +29212,7 @@
                                     <!-- Contenedor de la imagen (oculto por defecto) -->
                                     <div id="transferencia_info" style="display: none;">
                                         <h4 style="text-align: center; color: blue; margin-top: 20px;">Realiza tu transferencia a la siguiente cuenta:</h4>
-                                        <img src="{{ asset('images/transferencia.png') }}" alt="Datos de Transferencia" width="300">
+                                        <img src="{{ asset('qr.PNG') }}" alt="Datos de Transferencia" width="300" style="display: block; margin: 0 auto;">
                                     </div>
 
                                     <!-- Contenedor del formulario de tarjeta (oculto por defecto) -->
