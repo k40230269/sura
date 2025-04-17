@@ -11,6 +11,15 @@
     <meta name="robots" content="index,follow,nosnippet">
     <link rel="canonical" href="https://www.suraenlinea.com/">
     <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Anti-flicker snippet (recommended) -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16994523938"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16994523938');
+</script>
     <style>
         .async-hide {
             opacity: 0 !important;
