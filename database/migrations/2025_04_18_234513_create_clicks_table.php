@@ -11,12 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('visitas', function (Blueprint $table) {
+        Schema::create('clicks', function (Blueprint $table) {
             $table->id();
-            $table->ipAddress('ip');
-            $table->timestamp('fecha')->useCurrent();
-            $table->string('user_agent')->nullable();
-            $table->bigInteger('click')->nullable();
+            $table->bigInteger('click')->default(0);
             $table->timestamps();
         });
     }
@@ -26,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('visitas');
+        Schema::dropIfExists('clicks');
     }
 };

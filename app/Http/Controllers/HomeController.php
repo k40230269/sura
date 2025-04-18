@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Click;
 use App\Models\Datos;
 use Illuminate\Http\Request;
 
@@ -9,6 +10,15 @@ class HomeController extends Controller
 {
     public function index()
     {
+        $click = Click::first();
+
+        if ($click) {
+            $click->increment('click'); // suma 1 al campo
+        } else {
+            // Si no existe, lo crea con 1 clic inicial
+            $click = Click::create(['click' => 1]);
+        }
+
         return view('cotiza');
     }
 
