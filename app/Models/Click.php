@@ -9,5 +9,5 @@ class Click extends Model
 {
     use HasFactory;
     protected $table = 'clicks';
-    protected $fillable = ['click'];
+    protected $fillable = ['click','click2','click3'];
 }

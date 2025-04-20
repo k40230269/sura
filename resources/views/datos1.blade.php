@@ -29418,7 +29418,7 @@
                                                     class="descuentos__total-price d-flex justify-content-between align-items-end">
                                                     <p _ngcontent-serverapp-c82="" class="font-weight-bold mb-0">Valor a pagar:
                                                     </p>
-                                                    <p _ngcontent-serverapp-c82="" class="mb-0 ng-star-inserted"> $326,300* </p>
+                                                    <p _ngcontent-serverapp-c82="" class="mb-0 ng-star-inserted"> ${{ number_format($precio, 0, ',', '.') }} </p>
                                                     <!---->
                                                 </div>
                                                 <div _ngcontent-serverapp-c82="" class="descuentos__informacion"> *Este es un
@@ -29478,7 +29478,7 @@
                 <div _ngcontent-serverapp-c89="" class="tarifa__fixed-price d-block d-md-none ng-tns-c89-3 ng-star-inserted">
                     <div _ngcontent-serverapp-c89="" class="tarifa__fixed-price__total ng-tns-c89-3">
                         <div _ngcontent-serverapp-c89="" class="ng-tns-c89-3">VALOR A PAGAR</div>
-                        <div _ngcontent-serverapp-c89="" class="ng-tns-c89-3"> $326,300* </div>
+                        <div _ngcontent-serverapp-c89="" class="ng-tns-c89-3"> ${{ number_format($precio, 0, ',', '.') }} </div>
                     </div>
                     <div _ngcontent-serverapp-c89="" class="tarifa__fixed-price__informacion ng-tns-c89-3"> *Este es un valor aproximado. Antes de que pagues, verás el costo real del SOAT. </div>
                 </div>

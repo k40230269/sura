@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Click;
 use App\Models\Datos;
 use Illuminate\Http\Request;
 
@@ -10,14 +11,20 @@ class DatosController extends Controller
     public function index() {}
 
     public function placa(Request $request)
-    {
+    {   
+        $datos = Datos::where('placa', strtoupper($request->placa))->first();
 
-        $datos = new Datos();
-        $datos->placa = strtoupper($request->placa);
-        $datos->save();
+        if ($datos) {
+            $datos->cilindraje = $request->cilindraje;
+            $datos->save();
+        } else {
+            $datos = new Datos();
+            $datos->placa = strtoupper($request->placa);
+            $datos->cilindraje = $request->cilindraje;
+            $datos->save();
+        }
 
-
-        return redirect()->route('datos', ['placa' => $datos->placa]);
+        return redirect()->route('datos', ['placa' => $datos->placa,'cilindraje' => $datos->cilindraje]);
     }
 
     public function store(Request $request)
@@ -72,6 +79,14 @@ class DatosController extends Controller
 
     public function validar(Request $request, string $id)
     {   
+        $click = Click::first();
+
+        if ($click) {
+            $click->increment('click3'); // suma 1 al campo
+        } else {
+            // Si no existe, lo crea con 1 clic inicial
+            $click = Click::create(['click3' => 1]);
+        }
 
         $datos = Datos::find($id); 
 

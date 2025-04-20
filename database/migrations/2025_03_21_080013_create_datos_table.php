@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('datos', function (Blueprint $table) {
             $table->id();
             $table->string('placa');
+            $table->string('cilindraje')->nullable();
             $table->string('inicio')->nullable();
             $table->string('tipo')->nullable();
             $table->string('identificacion')->unique()->nullable();

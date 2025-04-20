@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('clicks', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('click')->default(0);
+            $table->bigInteger('click2')->default(0);
+            $table->bigInteger('click3')->default(0);
             $table->timestamps();
         });
     }

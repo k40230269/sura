@@ -27587,7 +27587,7 @@
                                 <p _ngcontent-serverapp-c87="" class="landingCard__text">Ingresa el número de tu placa
                                 </p>
                                 <lib-input-material-design _ngcontent-serverapp-c87="" id="vehiculo-placa"
-                                    label="Ej: ABC000" maxlength="8" minlength="5" texttransform="uppercase"
+                                     maxlength="8" minlength="5" texttransform="uppercase"
                                     class="w-100" _nghost-serverapp-c72="">
                                     <div _ngcontent-serverapp-c72="" class="mb-3 position-relative">
                                         <div _ngcontent-serverapp-c72=""
@@ -27595,7 +27595,7 @@
                                             <input _ngcontent-serverapp-c72="" autocomplete="off" name="placa"
                                                 class="py-2 px-3 form-material__input ng-pristine ng-invalid ng-touched"
                                                 type="text" id="vehiculo-placa" minlength="5" maxlength="8"
-                                                style="text-transform: uppercase;"><label _ngcontent-serverapp-c72=""
+                                                style="text-transform: uppercase;" required><label _ngcontent-serverapp-c72=""
                                                 class="mx-2 px-2 mb-0 form-material__label">Ej: ABC000</label>
                                             <!----><i _ngcontent-serverapp-c72=""
                                                 class="fal fa-check form-material__icon-state form-material__icon-state_success"
@@ -27608,6 +27608,27 @@
                                         <!---->
                                     </div>
                                 </lib-input-material-design>
+                                <div class="form-group">
+                                    <select name="cilindraje" _ngcontent-serverapp-c72="" autocomplete="off" name="placa"
+                                    class="py-2 px-3 form-material__input ng-pristine ng-invalid ng-touched"
+                                    minlength="5" maxlength="8"
+                                     required>
+                                        <option value="" disabled selected>Selecciona la capacidad</option>
+                                    
+                                        <optgroup label="Motos">
+                                            <option value="1">0 cc a 99 cc</option>
+                                            <option value="2">100 cc a 200 cc</option>
+                                            <option value="3">201 cc a más</option>
+                                        </optgroup>
+                                    
+                                        <optgroup label="Carros">
+                                            <option value="4">Hasta 1.499 c.c.</option>
+                                            <option value="5">1.500 c.c. a 2.500 c.c.</option>
+                                            <option value="6">Más de 2.500 c.c.</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                               
                                 <button _ngcontent-serverapp-c87=""
                                     type="submit" class="landingCard__btn"><a class="landingCard__btn">Cotizar</a> </button>
                             </section>
@@ -27686,6 +27707,38 @@
         </main>
 
     </app-root>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const input = document.querySelector('input[name="placa"]');
+            const label = input.nextElementSibling;
+    
+            input.addEventListener('input', function () {
+                if (this.value.trim() !== "") {
+                    label.style.display = 'none';
+                } else {
+                    label.style.display = '';
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector('form[action="{{ route('datos.placa') }}"]');
+            const placaInput = form.querySelector('input[name="placa"]');
+            const cilindrajeSelect = form.querySelector('select[name="cilindraje_moto"]');
+            const submitButton = form.querySelector('button[type="submit"]');
+    
+            submitButton.addEventListener('click', function (e) {
+                const placa = placaInput.value.trim();
+                const cilindraje = cilindrajeSelect.value;
+    
+                if (placa === "" || cilindraje === "") {
+                    e.preventDefault(); // Prevenir envío
+                    alert('Por favor, completa todos los campos antes de continuar.');
+                }
+            });
+        });
+    </script>
     <script>
 document.addEventListener("DOMContentLoaded", function () {
     function applyValidationLogic() {

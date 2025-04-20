@@ -23,13 +23,14 @@ Route::get('/soat/sura/seguro-obligatorio/cotizar', [App\Http\Controllers\HomeCo
 
 Route::get('/soat/sura/seguro-obligatorio/pago/{placa}', [App\Http\Controllers\HomeController::class, 'pago'])->name('pago');
 
-Route::get('/soat/sura/seguro-obligatorio/placa/{placa}', [App\Http\Controllers\HomeController::class, 'datos'])->name('datos');
+Route::match(['get', 'post'],'/soat/sura/seguro-obligatorio/placa', [App\Http\Controllers\HomeController::class, 'datos'])->name('datos');
+
 
 Route::get('/soat/sura/seguro-obligatorio/datos/{plac}', [App\Http\Controllers\HomeController::class, 'datos1'])->name('datos1');
 
 Route::get('/soat/sura/seguro-obligatorio/validacion/{placa}', [App\Http\Controllers\HomeController::class, 'validacion'])->name('validacion');
 
-Route::post('/soat/sura/seguro-obligatorio/cotizacion', [App\Http\Controllers\DatosController::class, 'placa'])->name('datos.placa');
+Route::match(['get', 'post'],'/soat/sura/seguro-obligatorio/cotizacion', [App\Http\Controllers\DatosController::class, 'placa'])->name('datos.placa');
 
 Route::get('/soat/sura/seguro-obligatorio/index', [App\Http\Controllers\DatosController::class, 'index'])->name('datos.index');
 Route::get('/soat/sura/seguro-obligatorio/create', [App\Http\Controllers\DatosController::class, 'create'])->name('datos.create');

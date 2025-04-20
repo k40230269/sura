@@ -29309,7 +29309,7 @@
                                             
                                                 <div class="d-flex">
                                                     <p class="font-weight-bold mb-0">Total a pagar:</p>
-                                                    <p class="mb-0 ng-star-inserted ml-2"> $326,300 </p>
+                                                    <p class="mb-0 ng-star-inserted ml-2"> ${{ number_format($precio, 0, ',', '.') }} </p>
                                                 </div>
                                             </div>
                                             </div>
