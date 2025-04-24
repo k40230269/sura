@@ -6,14 +6,15 @@
     <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
     <meta content="index,follow,nosnippet" name="robots" />
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16994523938"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17025199020">
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-16994523938');
+  gtag('config', 'AW-17025199020');
 </script>
     <meta
         content="Cubrimos indemnización en caso de muerte o discapacidad, servicios de salud y gastos de transporte. No cubrimos daños a bienes ¡Conoce los detalles!"
