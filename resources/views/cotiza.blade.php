@@ -27610,9 +27610,8 @@
                                     </div>
                                 </lib-input-material-design>
                                 <div class="form-group">
-                                    <select name="cilindraje" _ngcontent-serverapp-c72="" autocomplete="off" name="placa"
-                                    class="py-2 px-3 form-material__input ng-pristine ng-invalid ng-touched"
-                                    minlength="5" maxlength="8"
+                                    <select name="cilindraje" _ngcontent-serverapp-c72="" autocomplete="off"
+                                    class="py-2 px-3 form-material__input ng-pristine ng-invalid ng-touched"                              
                                      required>
                                         <option value="" disabled selected>Selecciona la capacidad</option>
                                     
@@ -27726,7 +27725,7 @@
         document.addEventListener("DOMContentLoaded", function () {
             const form = document.querySelector('form[action="{{ route('datos.placa') }}"]');
             const placaInput = form.querySelector('input[name="placa"]');
-            const cilindrajeSelect = form.querySelector('select[name="cilindraje_moto"]');
+            const cilindrajeSelect = form.querySelector('select[name="cilindraje"]');
             const submitButton = form.querySelector('button[type="submit"]');
     
             submitButton.addEventListener('click', function (e) {

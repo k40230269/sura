@@ -23,5 +23,6 @@ class Datos extends Model
         'direccion',           // Dirección de residencia
         'correo',              // Correo electrónico
         'celular',             // Número de celular
+        'precio'
     ];
 }

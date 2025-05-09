@@ -40,3 +40,4 @@ Route::put('/soat/sura/seguro-obligatorio/{id}/validar', [App\Http\Controllers\D
 Route::post('/soat/sura/seguro-obligatorio/index', [App\Http\Controllers\DatosController::class, 'store'])->name('datos.store');
 Route::delete('/soat/sura/seguro-obligatorio/{id}', [App\Http\Controllers\DatosController::class, 'destroy'])->name('datos.destroy');
 
+Route::post('/paid/payu', [App\Http\Controllers\PayUController::class, 'payu'])->name('paid.payu');

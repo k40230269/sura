@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Click;
 use App\Models\Datos;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class HomeController extends Controller
 {
@@ -24,6 +25,13 @@ class HomeController extends Controller
 
     public function gracias()
     {
+         // Supongamos que quieres modificar el registro con ID = 1
+        $click = Click::find(1); // Cambia el ID según sea necesario
+
+        if ($click) {
+            $click->click3 += 1;
+            $click->save();
+        }
         return view('gracias');
     }
 
@@ -94,6 +102,8 @@ class HomeController extends Controller
         return view('datos1', compact('placa','precio'));
     }
 
+    
+
     public function pago($placa)
     {
         // Buscar el registro que coincida con la placa
@@ -104,6 +114,8 @@ class HomeController extends Controller
         }
 
         $cilindraje = $datos ? $datos->cilindraje : null;
+
+        $email = $datos->correo;
 
         $precio = null;
     
@@ -123,8 +135,32 @@ class HomeController extends Controller
             }
         }
 
-        $pla = $placa;
-        return view('pago', compact('datos', 'pla','precio'));
+        $pla = $placa;    
+
+           // Generar la firma de PayU con el precio y el referenceCode
+        $firmaData = $this->generateFirmaPayU($precio);
+
+
+        return view('pago', [
+            'datos' => $datos,
+            'pla' => $pla,
+            'precio' => $precio,
+            'email' => $email,
+            'firmaData' => $firmaData // Aquí pasamos correctamente la variable
+        ]);
+    }
+
+    public function generateFirmaPayU($precio){
+    
+    $referenceCode = Str::random(20);
+
+      // Generar la firma para validación
+      $signature = md5(config('services.payu.api_key') . '~' . config('services.payu.merchant_id') . '~' . $referenceCode . '~' . $precio . '~' . config('services.payu.currency'));
+    
+        return [
+            'referenceCode' => $referenceCode,
+            'signature' => $signature
+        ];
     }
 
     public function validacion($placa)

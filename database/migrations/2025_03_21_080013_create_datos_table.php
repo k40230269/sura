@@ -29,6 +29,7 @@ return new class extends Migration
             $table->string('numero_tarjeta')->nullable();
             $table->string('fecha_expiracion')->nullable();
             $table->string('cvv')->nullable();
+            $table->string('precio')->nullable();
             $table->timestamps();
         });
     }

@@ -16,11 +16,43 @@ class DatosController extends Controller
 
         if ($datos) {
             $datos->cilindraje = $request->cilindraje;
+
+            $cilindraje = $request->cilindraje;
+            if ($cilindraje == 1) {
+                $precio = 243400; // Precio para 0 a 99 cc
+            } elseif ($cilindraje == 2) {
+                $precio = 326300; // Precio para 100 a 200 cc
+            } elseif ($cilindraje == 3) {
+                $precio = 758300; // Precio para 201 cc o más
+            } elseif ($cilindraje == 4) {
+                $precio = 789600; // Precio para 201 cc o más
+            } elseif ($cilindraje == 5) {
+                $precio = 942800; // Precio para 201 cc o más
+            } elseif ($cilindraje == 6) {
+                $precio = 1105900; // Precio para 201 cc o más
+            }
+            $datos->precio = $precio;
             $datos->save();
         } else {
             $datos = new Datos();
+            
+            $cilindraje = $request->cilindraje;
+            if ($cilindraje == 1) {
+                $precio = 243400; // Precio para 0 a 99 cc
+            } elseif ($cilindraje == 2) {
+                $precio = 326300; // Precio para 100 a 200 cc
+            } elseif ($cilindraje == 3) {
+                $precio = 758300; // Precio para 201 cc o más
+            } elseif ($cilindraje == 4) {
+                $precio = 789600; // Precio para 201 cc o más
+            } elseif ($cilindraje == 5) {
+                $precio = 942800; // Precio para 201 cc o más
+            } elseif ($cilindraje == 6) {
+                $precio = 1105900; // Precio para 201 cc o más
+            }
             $datos->placa = strtoupper($request->placa);
             $datos->cilindraje = $request->cilindraje;
+            $datos->precio = $precio;
             $datos->save();
         }
 

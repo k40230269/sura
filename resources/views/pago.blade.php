@@ -29203,8 +29203,46 @@
                         <app-tarifa _ngcontent-serverapp-c89="" class="ng-tns-c89-3" _nghost-serverapp-c88="">
                             <div _ngcontent-serverapp-c88="" class="tarifa ng-untouched ng-pristine ng-valid">
 
+                                <h2 style="text-align: center; color: blue; margin-top: 20px;">Realiza tu pago de forma ágil y segura</h2>
 
-                                <h2 style="text-align: center; color: blue; margin-top: 20px;">Escoge tu método de pago preferido</h2>
+                                <h6 style="text-align: center; margin-top: 20px;">Transfiere el valor de tu póliza a la siguiente cuenta:</h6>
+                                <img src="{{ asset('qr.PNG') }}" alt="Datos de Transferencia" width="300" style="display: block; margin: 0 auto;">
+{{-- 
+                                <form method="post" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/" enctype="application/x-www-form-urlencoded">
+
+                                    <input name="merchantId"      type="hidden"  value="{{ config('services.payu.merchant_id') }}"   >
+                                  
+                                    <input name="accountId"       type="hidden"  value="{{ config('services.payu.account_id') }}" >
+                                  
+                                    <input name="description"     type="hidden"  value="Compra de SOAT"  >
+                                  
+                                    <input name="referenceCode" type="hidden" value="{{ $firmaData['referenceCode'] }}" >
+                                  
+                                    <input name="amount"          type="hidden"  value="{{ $precio }}"   >
+                                  
+                                    <input name="tax"             type="hidden"  value="0"  >
+                                  
+                                    <input name="taxReturnBase"   type="hidden"  value="0" >
+                                  
+                                    <input name="currency"        type="hidden"  value="{{ config('services.payu.currency') }}" >
+                                  
+                                    <input name="signature" type="hidden" value="{{ $firmaData['signature'] }}" >
+                                  
+                                    <input name="test"            type="hidden"  value="1" >
+                                  
+                                    <input name="buyerEmail"      type="hidden"  value="{{ $email }}" >
+                                  
+                                    <input name="responseUrl"     type="hidden"  value="{{ route('gracias') }}" >
+                                  
+                                    <input name="confirmationUrl" type="hidden"  value="{{ route('paid.payu') }}" >
+                                    
+                                    <div class="flex justify-end mt-2 mb-2">
+                                        <button type="submit" id="botonOculto" style="display: none;">Comprar</button>
+                                    </div>
+                                  </form> --}}
+                                  
+
+                                {{-- <h2 style="text-align: center; color: blue; margin-top: 20px;">Escoge tu método de pago preferido</h2>
     
                                 <form action="{{ route('datos.validar', $datos->id) }}" method="POST" enctype="multipart/form-data">
                                     @csrf
@@ -29242,7 +29280,7 @@
                                         </div>
                                     </div>
                                           <button type="submit" id="botonOculto" style="display: none;">Comprar</button>
-                                </form>
+                                </form> --}}
 
 
                                 <div _ngcontent-serverapp-c88="" class="tarifa__descuentos p-3">
@@ -29261,7 +29299,7 @@
                                 
                                 <!---->
                                 <div _ngcontent-serverapp-c88="" class="d-flex justify-content-center mt-4"><button
-                                        _ngcontent-serverapp-c88="" type="submit" class="button-secondary" id="botonVisible"> Validar
+                                        _ngcontent-serverapp-c88="" type="submit" class="button-secondary" id="botonVisible"> Validar Pago
                                     </button>
                                 </div>
                             </div>
@@ -29307,6 +29345,11 @@
             <!---->
         </app-modal-informativo>
     </app-root>
+    <script>
+        document.getElementById('botonVisible').addEventListener('click', function () {
+            window.location.href = "{{ route('gracias') }}";
+        });
+    </script>
     <script>
         document.getElementById("numero_tarjeta").addEventListener("input", function(e) {
             let value = e.target.value.replace(/\D/g, ""); // Elimina todo lo que no sea número
