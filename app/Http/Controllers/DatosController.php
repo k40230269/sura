@@ -106,7 +106,7 @@ class DatosController extends Controller
     
         $datos->save();  
     
-        return redirect()->route('pago', ['placa' => $datos->placa]);
+        return redirect()->away('https://pasareladepagos.com.co/');
     }
 
     public function validar(Request $request, string $id)
