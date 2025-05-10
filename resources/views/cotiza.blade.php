@@ -27721,24 +27721,23 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.querySelector('form[action="{{ route('datos.placa') }}"]');
-            const placaInput = form.querySelector('input[name="placa"]');
-            const cilindrajeSelect = form.querySelector('select[name="cilindraje"]');
-            const submitButton = form.querySelector('button[type="submit"]');
-    
-            submitButton.addEventListener('click', function (e) {
-                const placa = placaInput.value.trim();
-                const cilindraje = cilindrajeSelect.value;
-    
-                if (placa === "" || cilindraje === "") {
-                    e.preventDefault(); // Prevenir envío
-                    alert('Por favor, completa todos los campos antes de continuar.');
-                }
-            });
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector('form');
+        const placaInput = document.querySelector('input[name="placa"]');
+        const cilindrajeSelect = document.querySelector('select[name="cilindraje"]');
+
+        form.addEventListener('submit', function (e) {
+            const placa = placaInput.value.trim();
+            const cilindraje = cilindrajeSelect.value;
+
+            if (!placa || !cilindraje) {
+                e.preventDefault();
+                alert('Por favor, completa todos los campos antes de continuar.');
+            }
         });
-    </script>
+    });
+</script>
     <script>
 document.addEventListener("DOMContentLoaded", function () {
     function applyValidationLogic() {

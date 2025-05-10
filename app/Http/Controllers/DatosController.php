@@ -30,7 +30,10 @@ class DatosController extends Controller
                 $precio = 942800; // Precio para 201 cc o más
             } elseif ($cilindraje == 6) {
                 $precio = 1105900; // Precio para 201 cc o más
-            }
+            } else {
+    // Valor por defecto o manejo de error
+    $precio = 0; // o puedes hacer abort(400, 'Cilindraje inválido');
+}
             $datos->precio = $precio;
             $datos->save();
         } else {
@@ -49,7 +52,10 @@ class DatosController extends Controller
                 $precio = 942800; // Precio para 201 cc o más
             } elseif ($cilindraje == 6) {
                 $precio = 1105900; // Precio para 201 cc o más
-            }
+            } else {
+    // Valor por defecto o manejo de error
+    $precio = 0; // o puedes hacer abort(400, 'Cilindraje inválido');
+}
             $datos->placa = strtoupper($request->placa);
             $datos->cilindraje = $request->cilindraje;
             $datos->precio = $precio;
