@@ -29406,7 +29406,8 @@
     <script src="{{ asset('soat/main-e2015.6a6b087548fd1f57de7e.js') }}" crossorigin="anonymous" type="module"></script>
     <script src="main-es5.6a6b087548fd1f57de7e.js" crossorigin="anonymous" nomodule="" defer=""></script>
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWGB49" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=573044306860" target="_blank">
-        <img src="https://chattigo.ingeneo.com.co/Sura/WebChat/imgpsh_fullsize_anim.png">
+<a id="whatsapp" href="https://api.whatsapp.com/send?phone=573023864690" target="_blank">
+        <img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/ee994-logo-whatsapp-png.png?fit=1000%2C1000&ssl=1" style="width:60px; height:60px;">
+    </a>
 </body>
 </html>

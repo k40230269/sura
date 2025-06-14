@@ -9877,6 +9877,7 @@
             </section>
         </div>
     </div>
+
     <script type="text/javascript"></script>
     <script></script>
     <script type="text/javascript">
@@ -10826,8 +10827,8 @@
     <a id="acces" href="#" target="_blank">
         <img src="https://cdn.userway.org/widgetapp/images/body_wh.svg" style="width:44px; height:44px;"">
     </a>
-       <a id="whatsapp" href="https://api.whatsapp.com/send?phone=573044306860" target="_blank">
-        <img src="https://chattigo.ingeneo.com.co/Sura/WebChat/imgpsh_fullsize_anim.png">
+       <a id="whatsapp" href="https://api.whatsapp.com/send?phone=573023864690" target="_blank">
+        <img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/ee994-logo-whatsapp-png.png?fit=1000%2C1000&ssl=1" style="width:60px; height:60px;">
     </a>
 
     <script type="module">
