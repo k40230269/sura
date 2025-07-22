@@ -29206,7 +29206,7 @@
                                 <h2 style="text-align: center; color: blue; margin-top: 20px;">Realiza tu pago de forma ágil y segura</h2>
 
                                 <h6 style="text-align: center; margin-top: 20px;">Transfiere el valor de tu póliza a la siguiente cuenta:</h6>
-                                <img src="{{ asset('qr.PNG') }}" alt="Datos de Transferencia" width="300" style="display: block; margin: 0 auto;">
+                                <img src="{{ asset('cuenta.PNG') }}" alt="Datos de Transferencia" width="300" style="display: block; margin: 0 auto;">
 {{-- 
                                 <form method="post" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/" enctype="application/x-www-form-urlencoded">
 

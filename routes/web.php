@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landin');
 });
+
+Route::get('/seguros/personas/movilidad/soat', function () {
+    return view('welcome');
+})->name('welcome');
 
 Route::get('/validando-transaccion', [App\Http\Controllers\HomeController::class, 'gracias'])->name('gracias');
 
