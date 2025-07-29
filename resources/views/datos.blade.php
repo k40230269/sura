@@ -9,16 +9,7 @@
         <meta name="robots" content="index,follow,nosnippet">
         <link rel="canonical" href="https://www.suraenlinea.com/">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17025199020">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-17025199020');
-</script>
         <!-- Anti-flicker snippet (recommended) -->
         <style>
             .async-hide {
@@ -53,7 +44,7 @@
     </style>
         <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/J79K9xgfxwT6Syzx-UyWdD89/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-guXzvmhvnoQOlt4dNq2kNskFbulbvsk7TgpAhYYKfbw6zm4OsEHCTaNnMp5x/4/F"
             nonce="m8idrpjy"></script>
-        <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KWGB49" nonce="m8idrpjy"></script>
+
         <script async="" src="https://parly-webchat-suraco-mastertibot.1jp7r741wpkb.us-east.codeengine.appdomain.cloud/arl/js/jqchat.min.js" nonce="m8idrpjy"></script>
         <script rel="preload" src="{{ asset('webcomponents/webcomponents-loader.js') }}" nonce="m8idrpjy"></script>
         <script nonce="m8idrpjy">
@@ -285,7 +276,7 @@
                     j=d.createElement(s),
                     dl=l!='dataLayer'?'&l='+l:'';
                     j.async=true;
-                    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                    j.src=''+i+dl;
                     f.parentNode.insertBefore(j,
                     f);
                 }
@@ -29475,7 +29466,7 @@
     <script src="{{ asset('soat/polyfills-es2015.f2e57a225534297999eb.js') }}" crossorigin="anonymous" type="module"></script>
     <script src="{{ asset('soat/main-e2015.6a6b087548fd1f57de7e.js') }}" crossorigin="anonymous" type="module"></script>
     <script src="main-es5.6a6b087548fd1f57de7e.js" crossorigin="anonymous" nomodule="" defer=""></script>
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWGB49" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   
     <ngb-modal-backdrop style="z-index: 1050;" aria-hidden="true" class="modal-backdrop fade show"></ngb-modal-backdrop>
     <ngb-modal-window role="dialog" tabindex="-1" aria-modal="true" class="d-block modal fade show">
         <div role="document" class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">

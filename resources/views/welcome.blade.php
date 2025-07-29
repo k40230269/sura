@@ -5,16 +5,7 @@
     <title>SOAT Sura - Seguro Obligat​orio de Accidentes de Tránsito</title>
     <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17025199020">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-17025199020');
-</script>
     <meta
         content="Cubrimos indemnización en caso de muerte o discapacidad, servicios de salud y gastos de transporte. No cubrimos daños a bienes ¡Conoce los detalles!"
         lang="es-CO" name="description" />
@@ -1236,7 +1227,7 @@
 
         // ]]>
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SL5406K0X"></script>
+
     <link  rel="stylesheet"
         href="{{ asset('compile-style-nue.css') }}"
         rel="stylesheet" type="text/css">
@@ -1545,12 +1536,7 @@
                         <div id="fragment-96353845-1c21-d49e-9f9b-b51a3dc32c6a">
                             <div class="component-html" data-lfr-editable-id="element-html"
                                 data-lfr-editable-type="html">
-                                <!-- Google Tag Manager (noscript) --><noscript>
-                                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWJ6DWL"
-                                        height="0" width="0"
-                                        style="display:none;visibility:hidden"></iframe>
-                                </noscript>
-                                <!-- End Google Tag Manager (noscript) -->
+                 
                             </div>
                         </div>
                         <style>
@@ -1564,12 +1550,7 @@
                         <div id="fragment-a5ef07ab-0f5a-495d-e340-6bddad14b9d1">
                             <div class="component-html" data-lfr-editable-id="element-html"
                                 data-lfr-editable-type="html">
-                                <!-- Google Tag Manager (noscript) --><noscript>
-                                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWJ6DWL"
-                                        height="0" width="0"
-                                        style="display:none;visibility:hidden"></iframe>
-                                </noscript>
-                                <!-- End Google Tag Manager (noscript) -->
+                      
                             </div>
                         </div>
                     </div>

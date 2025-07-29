@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17411024504"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17411024504');
+</script>
     <meta charset="UTF-8">
     <title>SOAT en Colombia | Cotiza tu Seguro Obligatorio</title>
     <meta name="description" content="Consulta información sobre el SOAT en Colombia, sus coberturas y beneficios.">

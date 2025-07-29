@@ -11,16 +11,7 @@
     <meta name="robots" content="index,follow,nosnippet">
     <link rel="canonical" href="https://www.suraenlinea.com/">
     <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Anti-flicker snippet (recommended) -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17025199020">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-17025199020');
-</script>
     <style>
         .async-hide {
             opacity: 0 !important;
@@ -54,7 +45,7 @@
     <script type="text/javascript" async="" charset="utf-8"
         src="https://www.gstatic.com/recaptcha/releases/J79K9xgfxwT6Syzx-UyWdD89/recaptcha__es.js" crossorigin="anonymous"
         integrity="sha384-guXzvmhvnoQOlt4dNq2kNskFbulbvsk7TgpAhYYKfbw6zm4OsEHCTaNnMp5x/4/F" nonce="m8dzhxm8"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KWGB49" nonce="m8dzhxm8"></script>
+
     <script async=""
         src="https://parly-webchat-suraco-mastertibot.1jp7r741wpkb.us-east.codeengine.appdomain.cloud/arl/js/jqchat.min.js"
         nonce="m8dzhxm8"></script>
@@ -289,7 +280,7 @@
                     j = d.createElement(s),
                     dl = l != 'dataLayer' ? '&l=' + l : '';
                 j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                j.src = '' + i + dl;
                 f.parentNode.insertBefore(j,
                     f);
             }
@@ -27796,8 +27787,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <script src="polyfills-es5.0ac94b2f5a43aaa31646.js" crossorigin="anonymous" nomodule="" defer=""></script>
     <script src="polyfills-es2015.f2e57a225534297999eb.js" crossorigin="anonymous" type="module"></script>
     <script src="main-e2015.6a6b087548fd1f57de7e.js" crossorigin="anonymous" type="module"></script>
-    <script src="main-es5.6a6b087548fd1f57de7e.js" crossorigin="anonymous" nomodule="" defer=""></script> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWGB49" height="0"
-            width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script src="main-es5.6a6b087548fd1f57de7e.js" crossorigin="anonymous" nomodule="" defer=""></script>
     <div>
         <div class="grecaptcha-badge" data-style="bottomright"
             style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
