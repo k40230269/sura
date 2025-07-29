@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html class="ltr" dir="ltr" lang="en-US">
+<html class="ltr" dir="ltr" lang="es-CO">
 
 <head>
     <title>SOAT Sura - Seguro Obligat​orio de Accidentes de Tránsito</title>
     <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-    <meta content="index,follow,nosnippet" name="robots" />
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17025199020">
 </script>
@@ -56,7 +55,6 @@
             border-radius: 50% !important;
         }
     </style>
-    <link data-senna-track="temporary" href="soat.html" rel="canonical" />
     <link data-senna-track="temporary" href="https://www.sura.co/web/seguros/personas/movilidad/soat" hreflang="es-CO"
         rel="alternate" />
     <link data-senna-track="temporary" href="https://www.sura.co/web/seguros/personas/movilidad/soat"

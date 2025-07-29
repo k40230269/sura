@@ -2,14 +2,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>SOAT Sura | Cotiza tu Seguro Obligatorio</title>
-    <meta name="description" content="Compra tu SOAT con Sura. Rápido, seguro y fácil. Cobertura nacional con respaldo confiable.">
+    <title>SOAT en Colombia | Cotiza tu Seguro Obligatorio</title>
+    <meta name="description" content="Consulta información sobre el SOAT en Colombia, sus coberturas y beneficios.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Estilos -->
     <style>
         * {
             box-sizing: border-box;
@@ -106,60 +102,43 @@ blockquote {
     </style>
 </head>
 <body>
-
     <div class="container">
         <header>
-            <h1>Adquiere tu SOAT con Sura</h1>
-            <p>Rápido, seguro y con cobertura nacional</p>
+            <h1>Información sobre el SOAT en Colombia</h1>
+            <p>Consulta requisitos, beneficios y cómo adquirirlo con aseguradoras autorizadas.</p>
         </header>
 
         <section class="benefits">
-            <h2>¿Qué incluye tu SOAT?</h2>
+            <h2>¿Qué incluye el SOAT?</h2>
             <ul>
                 <li>✅ Atención médica inmediata en accidentes de tránsito</li>
                 <li>✅ Cobertura en todo el territorio colombiano</li>
-                <li>✅ Indemnización por incapacidad o muerte</li>
+                <li>✅ Indemnización por incapacidad o fallecimiento</li>
                 <li>✅ Gastos de transporte y hospitalización</li>
-                <li>✅ Respaldo de una aseguradora confiable como SURA</li>
             </ul>
         </section>
 
         <section class="cta">
-            <a href="{{ route('welcome') }}" rel="noopener noreferrer">
-                Cotizar ahora
-            </a>
+            <a href="{{ route('welcome') }}" rel="noopener noreferrer">Cotizar SOAT</a>
         </section>
 
         <section class="faq">
             <h2>Preguntas frecuentes</h2>
             <ul>
-                <li><strong>¿Es obligatorio el SOAT?</strong><br> Sí, es un seguro obligatorio exigido por la ley para todos los vehículos que circulan en Colombia.</li>
-                <li><strong>¿Qué documentos necesito?</strong><br> Solo necesitas los datos del vehículo y del propietario.</li>
-                <li><strong>¿Cuánto tiempo tarda la activación?</strong><br> La activación es inmediata una vez realizado el pago.</li>
-                <li><strong>¿Cómo recibo mi SOAT?</strong><br> Te llegará al correo electrónico registrado en formato PDF.</li>
+                <li><strong>¿Es obligatorio el SOAT?</strong> Sí, es exigido por ley para todos los vehículos que circulan en Colombia.</li>
+                <li><strong>¿Qué documentos necesito?</strong> Datos básicos del propietario y del vehículo.</li>
+                <li><strong>¿Cómo recibo el SOAT?</strong> Usualmente llega al correo en formato PDF tras la compra en una aseguradora.</li>
             </ul>
         </section>
-
-        <section class="testimonials">
-            <h2>Lo que dicen nuestros clientes</h2>
-            <blockquote>“Rápido y sencillo. En menos de 10 minutos ya tenía el SOAT en mi correo.”<br>– Laura G.</blockquote>
-            <blockquote>“Excelente atención y respaldo. SURA siempre responde.”<br>– Andrés P.</blockquote>
+<img src="{{ asset('landing.webp') }}" alt="Soat Sura" style="width:100%; border-radius: 8px; margin-top:1rem;">
+        <section class="disclaimer">
+            <h2>Aviso importante</h2>
+            <p>Este sitio no pertenece a ninguna aseguradora. Su propósito es informativo y contiene el enlace a la entidad oficial.</p>
         </section>
-
-        <section class="steps">
-            <h2>¿Cómo obtener tu SOAT?</h2>
-            <ol>
-                <li>Ingresa tus datos del vehículo</li>
-                <li>Selecciona el método de pago</li>
-                <li>Recibe el SOAT en tu correo electrónico</li>
-            </ol>
-        </section>
-<img src="https://www.sura.co/documents/1771353/1908200/Asistencia+en+caso+de+varada_1080x1080_1-1.webp" alt="Soat Sura" style="width:100%; border-radius: 8px; margin-top:1rem;">
 
         <footer>
-            <p>© {{ date('Y') }} Seguros SURA. Esta página es informativa y dirige al sitio oficial de SURA.</p>
+            <p>© {{ date('Y') }} Página informativa dirige al sitio oficial</p>
         </footer>
     </div>
-
 </body>
 </html>
