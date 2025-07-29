@@ -119,7 +119,11 @@ blockquote {
         </section>
 
         <section class="cta">
-            <a href="{{ route('welcome') }}" rel="noopener noreferrer">Cotizar SOAT</a>
+           <button 
+        style="background:#FBC02D; color:#000; border:none; padding:1rem 2rem; border-radius:8px; font-size:1.1rem; font-weight:600; cursor:pointer;"
+        onclick="window.open('{{ route('welcome') }}', '_blank')">
+        Cotizar SOAT
+    </button>
         </section>
 
         <section class="faq">
